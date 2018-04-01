@@ -18,7 +18,7 @@ export default {
 
       const yOffset = container.getBoundingClientRect().top;
       const pageY = event.pageY;
-      let top = pageY - yOffset;
+      let top = pageY - yOffset - window.pageYOffset;
       if (top < 0) {
         top = 0;
       }

@@ -29,7 +29,10 @@ export default {
       const control = this.$refs.control;
       const containerHeight = container.clientHeight;
       const controlHeight = control.offsetHeight;
-      let top = event.pageY - container.getBoundingClientRect().top;
+      let top =
+        event.pageY -
+        container.getBoundingClientRect().top -
+        window.pageYOffset;
       if (top < 0) {
         top = 0;
       }

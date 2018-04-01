@@ -31,8 +31,8 @@ export default {
       const controlWidth = control.offsetWidth;
       const controlHeight = control.offsetHeight;
 
-      let left = pageX - xOffset;
-      let top = pageY - yOffset;
+      let left = pageX - xOffset - window.pageXOffset;
+      let top = pageY - yOffset - window.pageYOffset;
 
       if (left < 0) {
         left = controlWidth / 2;
