@@ -2,6 +2,7 @@
   <div class="hello">
     <router-link to="/color-picker">颜色选择器</router-link>
     <router-link to="/tag-cloud">3D标签云</router-link>
+    <router-link to="/auto-matting">自动抠图</router-link>
   </div>
 </template>
 

@@ -2,7 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
 import ColorPicker from "@/components/color-picker";
-import TagColor from "@/components/tag-cloud";
+import TagCloud from "@/components/tag-cloud";
+import AutoMatting from "@/components/auto-matting";
 
 Vue.use(Router);
 
@@ -21,7 +22,12 @@ export default new Router({
     {
       path: "/tag-cloud",
       name: "TagCloud",
-      component: TagColor
+      component: TagCloud
+    },
+    {
+      path: "/auto-matting",
+      name: "AutoMatting",
+      component: AutoMatting
     }
   ]
 });
