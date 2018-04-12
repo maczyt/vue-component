@@ -3,6 +3,9 @@
     <router-link to="/color-picker">颜色选择器</router-link>
     <router-link to="/tag-cloud">3D标签云</router-link>
     <router-link to="/auto-matting">自动抠图</router-link>
+    <router-link to="/snake">贪吃蛇</router-link>
+
+    <router-link to="/vague">有趣的鼠标悬浮模糊效果</router-link>
   </div>
 </template>
 
